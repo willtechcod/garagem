@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "garagem",
+    "slug": "garagem",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+         " ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.willcode2019.garagem",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.willcode2019.garagem",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}

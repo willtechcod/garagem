@@ -1,0 +1,5 @@
+{
+    "autoimport.absolute": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "tailwindCSS.emmetCompletions": true
+}
